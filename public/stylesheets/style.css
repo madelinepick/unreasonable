@@ -142,5 +142,8 @@ a{
   .leftcol > img {
     width: 25px;
   }
+  .information{
+    display:block;
+  }
 
 }
