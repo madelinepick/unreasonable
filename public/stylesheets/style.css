@@ -123,6 +123,7 @@ a{
   }
   h2{
     font-size: 25px;
+    font-weight: 300;
   }
   h3{
     font-size: 14px ;
@@ -131,7 +132,7 @@ a{
     font-size: 12px;
     display: block;
   }
-  .hero{
-    background-color: black;
+  .leftcol{
+    height: 50px;
   }
 }
