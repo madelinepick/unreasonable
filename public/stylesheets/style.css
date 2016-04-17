@@ -136,4 +136,8 @@ a{
     min-height: 20px;
     max-height: 30px;
   }
+  .elephant > img {
+    height: 20px;
+  }
+
 }
