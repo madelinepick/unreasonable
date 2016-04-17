@@ -133,7 +133,7 @@ a{
     display: block;
   }
   .leftcol{
-    min-height: 30px;
-    max-height: 50px;
+    min-height: 20px;
+    max-height: 30px;
   }
 }
