@@ -1,8 +1,13 @@
 $(function(){
   var value = $('.hero').css('height');
-  console.log(value);
-  $('.leftcol').css("min-height", value);
-  $(".rightcol").css("min-height", value);
+
+  if ($(window).width() > 650) {
+    $('.leftcol').css("min-height", value);
+    $(".rightcol").css("min-height", value);
+  }
+  else {
+  }
+
 
   $(".story").on('click', function(){
     $('html, body').animate({
