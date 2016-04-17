@@ -137,7 +137,10 @@ a{
     max-height: 30px;
   }
   .elephant > img {
-    height: 20px;
+    height: 30px;
+  }
+  .leftcol > img {
+    width: 25px;
   }
 
 }
