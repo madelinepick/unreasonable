@@ -3,7 +3,7 @@ $(function(){
   console.log(value);
   $('.leftcol').css("min-height", value);
   $(".rightcol").css("min-height", value);
-  
+
   $(".story").on('click', function(){
     $('html, body').animate({
         scrollTop: $("#story").offset().top
@@ -22,6 +22,11 @@ $(function(){
   $(".elephant").on('click', function(){
     $('html, body').animate({
         scrollTop: $("#elephant").offset().top
+    }, 2000);
+  })
+  $(".contacts").on('click', function(){
+    $('html, body').animate({
+        scrollTop: $("#contacts").offset().top
     }, 2000);
   })
 });
