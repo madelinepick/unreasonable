@@ -1,0 +1,127 @@
+body {
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+h1{
+  font-size: 70px;
+  color: white;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  margin: 5px 0px;
+}
+.hero > h2{
+  font-weight: 100;
+  color: white;
+}
+h2{
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  margin: 10px 0px;
+}
+p{
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 10%;
+}
+.hero{
+  background-color: rgb(39, 226, 187);
+  height: 100vh;
+  overflow: auto;
+  padding-left: 5%;
+}
+.information {
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  color: #333;
+  font-weight: 300;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+.leftcol{
+  flex: 0 0 24%;
+  padding: 2.5%;
+  background-color: #333;
+  border-bottom: 1px solid white;
+}
+.leftcol > h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color:white;
+  font-size: 3.5vw;
+}
+.leftcol > img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.rightcol{
+  flex: 0 0 65%;
+  padding: 2.5%;
+  border-bottom: 1px solid rgb(193, 193, 193);
+}
+.rightcol > h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+.rightcol > button {
+  border: 1px solid rgb(39, 226, 187);
+}
+button {
+  border: none;
+  box-shadow: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(39, 226, 187);
+  padding:15px;
+  margin: 3px;
+  font-size: 16px;
+}
+.elephant > img {
+  height: 50px;
+}
+a{
+  font-size: 1.3em;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+  p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+  h1{
+    font-size: 60px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  button{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 650px) and (-webkit-min-device-pixel-ratio: 1){
+  p{
+    font-size: 12px;
+    line-height: 14px;
+  }
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  button{
+    font-size: 12px;
+    display: block;
+  }
+}
