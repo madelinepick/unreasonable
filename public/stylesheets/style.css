@@ -135,6 +135,7 @@ a{
   .leftcol{
     min-height: 20px;
     max-height: 30px;
+    flex: none;
   }
   .elephant > img {
     height: 30px;
@@ -142,8 +143,11 @@ a{
   .leftcol > img {
     width: 25px;
   }
+  .rightcol{
+    flex: none;
+  }
   .information{
-    display:block;
+    display: block;
   }
 
 }
