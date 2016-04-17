@@ -134,5 +134,6 @@ a{
   }
   .leftcol{
     min-height: 30px;
+    max-height: 50px;
   }
 }
