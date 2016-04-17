@@ -131,4 +131,7 @@ a{
     font-size: 12px;
     display: block;
   }
+  .hero{
+    background-color: black;
+  }
 }
