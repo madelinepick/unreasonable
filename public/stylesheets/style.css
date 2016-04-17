@@ -121,7 +121,7 @@ a{
   h1{
     font-size: 35px;
   }
-  h2{
+  .hero > h2{
     font-size: 25px;
     font-weight: 300;
   }
@@ -133,6 +133,6 @@ a{
     display: block;
   }
   .leftcol{
-    height: 50px;
+    min-height: 50px;
   }
 }
