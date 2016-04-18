@@ -93,6 +93,14 @@ a{
   font-weight: 500;
   color: rgb(39, 226, 187);
 }
+.indent > a, .indent > p {
+  margin-left: 5%;
+}
+p.inline {
+  display: inline;
+  margin-left: 10px;
+  font-size: 14px;
+}
 
 @media only screen and (min-width: 650px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
   p{
@@ -152,6 +160,9 @@ a{
   }
   .rightcol > button {
     display: none;
+  }
+  .indent > a, .indent > p {
+    margin-left: 0;
   }
 
 }
