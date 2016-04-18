@@ -6,6 +6,7 @@ $(function(){
     $(".rightcol").css("min-height", value);
   }
   else {
+    null;
   }
 
 

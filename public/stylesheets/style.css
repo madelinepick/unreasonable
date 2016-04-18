@@ -136,16 +136,19 @@ a{
     flex: none;
   }
   .elephant > img {
-    height: 30px;
+    height: 40px;
   }
   .leftcol > img {
-    width: 25px;
+    width: 40px;
   }
   .rightcol{
     flex: none;
   }
   .information{
     display: block;
+  }
+  .rightcol > button {
+    display: none;
   }
 
 }
