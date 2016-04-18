@@ -133,8 +133,6 @@ a{
     display: block;
   }
   .leftcol{
-    min-height: 20px;
-    max-height: 30px;
     flex: none;
   }
   .elephant > img {
