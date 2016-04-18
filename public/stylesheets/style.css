@@ -54,7 +54,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   color:white;
-  font-size: 3.5vw;
+  font-size: 35px;
 }
 .leftcol > img {
   width: 50%;
@@ -134,6 +134,9 @@ a{
   }
   .leftcol{
     flex: none;
+  }
+  .leftcol > h2{
+    font-size: 20px;
   }
   .elephant > img {
     height: 40px;
