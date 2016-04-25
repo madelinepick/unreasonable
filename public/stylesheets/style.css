@@ -30,6 +30,7 @@ p{
   height: 100vh;
   overflow: auto;
   padding-left: 5%;
+  padding-bottom: 5%;
 }
 .hero > h2{
   font-weight: 100;
@@ -143,6 +144,9 @@ p.inline {
   font-weight: 300;
 
 }
+ul{
+  margin-top: 10px;
+}
 li{
   font-size: 14px;
   line-height: 19px;
@@ -188,21 +192,38 @@ li{
   h1{
     font-size: 60px;
   }
+  .typed-cursor{
+    font-size: 60px;
+  }
   h2{
     font-size: 40px;
   }
   h3{
     font-size:17px ;
   }
-  button{
+  button, a{
     font-size: 14px;
+  }
+  .header{
+    margin-left: 10%;
+  }
+  .header > h1{
+    font-size: 40px;
+  }
+  .sprintRow{
+    margin: 0px 10%;
+  }
+  .sprint{
+    flex: 0 0 94%;
+    margin: 1%;
+    padding: 2%;
   }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 650px) and (-webkit-min-device-pixel-ratio: 1){
   p{
     font-size: 14px;
-    line-height: 15.5px;
+    line-height: 17px;
   }
   h1{
     font-size: 35px;
@@ -212,9 +233,9 @@ li{
     font-weight: 300;
   }
   h3{
-    font-size: 16px ;
+    font-size: 16px;
   }
-  button{
+  button, a{
     font-size: 12px;
     display: block;
   }
@@ -241,6 +262,40 @@ li{
   }
   .indent > a, .indent > p {
     margin-left: 0;
+  }
+  .header{
+    margin-left: 5%;
+  }
+  .sprintRow{
+    margin: 0px 5%;
+  }
+  .sprint{
+    flex: 0 0 90%;
+    margin: 1%;
+    padding: 4%;
+  }
+  .paragraph{
+    flex: 0 0 90%;
+    margin: 1%;
+    padding: 4%;
+  }
+  ul{
+    padding: 0px 5%;
+  }
+  .header > h1{
+    font-size: 25px;
+  }
+  .typed-cursor{
+    font-size: 25px;
+  }
+  .sprint > h3, .paragraph > h3 {
+    font-size: 14px;
+  }
+  .sprint > h4{
+    font-size: 13px;
+  }
+  .sprint > h5{
+    font-size: 12px;
   }
 
 }
