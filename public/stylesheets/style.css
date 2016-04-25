@@ -8,12 +8,9 @@ h1{
   color: white;
   font-weight: 300;
   font-family: "Lato", sans-serif;
-  margin: 5px 0px;
+  margin: 0px 0px;
 }
-.hero > h2{
-  font-weight: 100;
-  color: white;
-}
+
 h2{
   color: #333;
   font-family: "Lato", sans-serif;
@@ -33,6 +30,10 @@ p{
   height: 100vh;
   overflow: auto;
   padding-left: 5%;
+}
+.hero > h2{
+  font-weight: 100;
+  color: white;
 }
 .information {
   display: flex;
@@ -101,7 +102,84 @@ p.inline {
   margin-left: 10px;
   font-size: 14px;
 }
+.trial{
+  background-color:  rgb(39, 226, 187);
+  padding: 50px 0px;
+}
+.sprintRow{
+  display: flex;
+  margin: 0px 15%;
+  flex-wrap: wrap;
+}
+.paragraph{
+  flex: 0 0 94%;
+  margin: 1%;
+  padding: 2%;
+  background: white;
+}
+.paragraph > p{
+  margin-right: 5%;
+}
+.sprint{
+  flex: 0 0 44%;
+  background: white;
+  margin: 1%;
+  padding: 2%;
+}
+.sprint > h3, .paragraph > h3 {
+  display: inline-block;
+  margin: 10px 0px 5px 0px;
+  text-transform: uppercase;
+}
+.sprint > h4{
+  display: inline-block;
+  margin: 10px 5px 5px 0px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.sprint > h5{
+  margin: 5px 0px 5px 0px;
+  font-size: 12px;
+  font-weight: 300;
 
+}
+li{
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 300;
+  list-style: circle;
+}
+.element{
+  display: inline;
+  text-align: center;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: white;
+    font-size: 70px;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.header{
+  width: 70%;
+  margin-left: 15%;
+}
 @media only screen and (min-width: 650px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
   p{
     font-size: 14px;
