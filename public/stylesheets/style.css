@@ -127,7 +127,7 @@ p.inline {
 .sprint{
   flex: 0 0 44%;
   background: white;
-  margin: 1%;
+  margin: 20px 1% 0px 1%;
   padding: 2%;
 }
 .sprint > h3, .paragraph > h3 {
@@ -146,6 +146,9 @@ p.inline {
   font-size: 12px;
   font-weight: 300;
 
+}
+.sprint > button {
+  margin-top: 10px;
 }
 ul{
   margin-top: 10px;
