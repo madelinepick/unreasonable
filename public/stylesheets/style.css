@@ -120,6 +120,9 @@ p.inline {
 }
 .paragraph > p{
   margin-right: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 .sprint{
   flex: 0 0 44%;
@@ -148,9 +151,10 @@ ul{
   margin-top: 10px;
 }
 li{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  font-weight: 300;
   list-style: circle;
 }
 .element{
@@ -218,6 +222,12 @@ li{
     margin: 1%;
     padding: 2%;
   }
+  .paragraph > p{
+    font-size: 13px;
+  }
+  li{
+    font-size: 13px;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 650px) and (-webkit-min-device-pixel-ratio: 1){
@@ -278,6 +288,12 @@ li{
     flex: 0 0 90%;
     margin: 1%;
     padding: 4%;
+  }
+  .paragraph > p{
+    font-size: 12px;
+  }
+  li{
+    font-size: 12px;
   }
   ul{
     padding: 0px 5%;
